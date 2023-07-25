@@ -1,0 +1,157 @@
+
+
+body {
+  font-family: 'Century Gothic';
+  color: #f2911b;
+  background: #292626;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.media-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid white;
+  font-family: 'Century Gothic'
+}
+
+
+
+.media-table td {
+  padding: 20px;
+  text-align: center;
+  border: 10px solid#292626;
+  font-weight: bold;
+}
+
+.media-table h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Century Gothic';
+  font-weight: bold
+}
+
+.media-table p {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Century Gothic'
+}
+
+.media-table img {
+  height: 250px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.media-table .status-paid {
+  padding: 8px 12px;
+  color: white;
+  background-color: green;
+  border-radius: 4px;
+  font-family: 'Century Gothic'
+}
+
+.media-table .status-not-paid {
+  padding: 8px 12px;
+  color: white;
+  background-color: red;
+  border-radius: 4px;
+  font-family: 'Century Gothic'
+}
+
+.media-table .buy-button {
+  padding: 10px 20px;
+  background-color: #292626;
+  color:#f2911b ;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Century Gothic';
+  cursor: pointer;
+  width: 210px;
+  height: 50px;
+}
+
+.title{
+  background-color: #f2911b;
+  color: #292626;
+font-size: 25px;
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Century Gothic'
+}
+
+.imagen1{
+
+	width: 120px;
+	height: 120px;
+
+}
+
+.principal{
+  background-color:  #f2911b;
+  color: #292626;
+  margin: 25px auto;
+  width: 90%;
+  font-size: 18px;
+  border-width: 50px;
+  border-color: black;
+  font-family: 'Century Gothic';
+}
+
+
+.media-table .buy-button:disabled {
+  background-color: #292626;
+  cursor: not-allowed;
+  font-family: 'Century Gothic'
+}
+
+.media-table .qrcode {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.media-table .invoice-textarea {
+  width: 650px;
+  height: 100px;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #292626;
+  color: #f2911b;
+  font-size: 15px;
+  font-family: 'Century Gothic'
+}
+
+.media-table .download-buttons {
+  margin-top: 20px;
+}
+
+.media-table .download-buttons a {
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 8px 12px;
+  font-family: 'Century Gothic';
+  border-radius: 20px;
+  background-color: #292626;
+  color: white;
+
+}
+
+.media-table .download-buttons a:hover {
+  background-color: white;
+}
